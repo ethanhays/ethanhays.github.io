@@ -4,8 +4,8 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (username.github.io) then use these settings:
-url: "http://username.github.io"
-baseurl: ""
+url: "http://ethanhays.github.io/blog"
+baseurl: "/blog"
 
 # If you are building a GitHub project page then use these settings:
 #url: "http://username.github.io/projectname"
@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: My website
+title: Ethan Hays - Building Websites With Jekyl
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: This website took me 5 minutes to build
 
 # --- Navigation bar options --- #
 
@@ -36,22 +36,22 @@ navbar-links:
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: Some Person
+  name: Ethan Hays
   email: "youremail@domain.com"
   facebook: yourname  # eg. daattali
-  github: yourname    # eg. daattali
-  twitter: yourname   # eg. daattali
-  linkedin: yourlink  # eg. "pub/dean-attali/8/946/143"
+  github: ethanhays  # eg. daattali
+  twitter: ethanhays  # eg. daattali
+  linkedin: "in/ethanhays"  # eg. "pub/dean-attali/8/946/143"
   stackoverflow: yourlink  # eg. "users/3943160/daattali"
  
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: true
-  email: true
+  facebook: false
+  email: false
   twitter: true
   github: true
-  linkedin: false
+  linkedin: true
   stackoverflow: false
 
 # How to display the link to the website in the footer
